@@ -45,11 +45,21 @@ header li:hover{
     transform: scale(2.2);
     transition: 4s;
 }
-main h1:hover {
-    transform: scale(1.3);
-transition: 2s;
+
+
+main img{
+    width: 100%;
+    border-radius: 5rem;
+    margin-top: 5px;
+    display: flex;
+    top: 100; 
+    
 }
 
+main img:hover{
+    transform: scale(1.1);
+    transition: 4s;
+}
 
 main{
     text-align: center;
@@ -59,10 +69,5 @@ main{
     transform: translate(-50%, -50%);
     top: 41%;
     font-size: 5rem;
-}
-.img{
-    display: flex;
-    position: absolute;
-    margin-top: 10px;
 }
 
