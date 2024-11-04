@@ -1,0 +1,95 @@
+
+body{
+    background-color: white;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient( 111.4deg,  rgba(7,7,9,1) 6.5%, rgba(27,24,113,1) 93.2% );
+    
+}
+
+header{
+    width: 100%;
+    background-color: transparent;
+    padding: 15px;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    text-align: center;
+    padding: 60px;
+    width: 90%;
+    max-width: 1200px;
+
+}
+
+h1{
+color: white;
+margin-bottom: 10px;
+}
+
+header li:hover {
+transform: scale(1.3);
+transition: 2s;
+
+}
+main h1:hover{
+    transform: scale(1.3);
+transition: 2s;
+}
+ main img:hover{  
+        transform: scale(1.3);
+    transition: 2s;
+    }
+    main h2:hover {
+        transform: scale(1.3);
+    transition: 2s;
+    }
+    main p:hover {
+        transform: scale(1.3);
+    transition: 2s;
+    }
+ 
+.galeria{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.conteudo {
+    background-color: #003366;
+    color: white;
+    width: 30%;
+    padding: 20px;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.conteudo img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.conteudo h2{
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.conteudo p{
+    margin-top: 5px;
+    font-size: 0.9rem;
+
+}

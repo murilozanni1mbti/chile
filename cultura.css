@@ -1,0 +1,102 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    --white: #fff;
+    --grey-1: #C4C4CC;
+    --gray-2: #E1E1E6;
+    color: black;
+    
+    --home-bg: url(./assets/image\ \(3\).png);
+   
+}
+
+
+body {
+    font-size: 1.6rem;
+    background-image: var(--home-bg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: black;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 7.2rem;
+    gap: 4.3rem;
+}
+
+header ul {
+    display: flex;
+    gap: 5.4rem;
+    list-style: none;
+}
+
+header a {
+    font-size: 2.2rem;
+    color: #ededed;
+    text-decoration: none;
+}
+header li:hover{
+    transform: scale(2.2);
+    transition: 4s;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 10%;
+    font-size: 5rem;
+    color: #ededed;
+    
+}
+main h1:hover {
+    transform: scale(1.3);
+transition: 2s;
+}
+main p:hover {
+    transform: scale(1.3);
+transition: 2s;
+}
+
+.primeira {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+.primeira img {
+    width: 45%;
+    border-radius: 0.5rem;
+    
+}
+
+
+
+.paragrafo {
+    width: 45%;
+    font-size: 2.5rem;
+    color: rgb(255, 255, 255);
+   
+    padding: 5rem;
+    border-radius: 0.5rem;
+    line-height: 1.5;
+}
+
+
+  
+  
