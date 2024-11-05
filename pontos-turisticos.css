@@ -49,18 +49,8 @@ main h1:hover{
     transform: scale(1.3);
 transition: 2s;
 }
- main img:hover{  
-        transform: scale(1.3);
-    transition: 2s;
-    }
-    main h2:hover {
-        transform: scale(1.3);
-    transition: 2s;
-    }
-    main p:hover {
-        transform: scale(1.4);
-    transition: 2s;
-    }
+ 
+   
  
 .galeria{
     display: flex;
@@ -93,3 +83,4 @@ transition: 2s;
     font-size: 0.9rem;
 
 }
+

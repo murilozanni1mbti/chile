@@ -34,6 +34,7 @@ header ul {
     display: flex;
     gap: 5.4rem;
     list-style: none;
+   
 }
 
 header a {
@@ -44,6 +45,7 @@ header a {
 header li:hover{
     transform: scale(2.2);
     transition: 4s;
+   
 }
 
 
