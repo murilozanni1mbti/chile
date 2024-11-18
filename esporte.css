@@ -15,8 +15,8 @@ body {
     margin: 0 auto;
 }
 header li:hover{
-    transform: scale(1.6);
-    transition: 4s;
+    transform: scale(1.5);
+    transition: 6s;
     
 }
 header {
@@ -34,7 +34,7 @@ header ul {
 }
 
 header a {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
@@ -51,6 +51,7 @@ h1 {
 main p {
     font-size: 18px;
     margin-bottom: 20px;
+    color: #fff;
 }
 main img {
     margin-top: 20px;
@@ -79,7 +80,9 @@ main img {
 }
 
 .gradiente {
-    background: linear-gradient(to bottom, rgb(0, 14, 136), white); 
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 23%, rgba(9,9,121,1) 100%, rgba(255,255,255,1) 100%, rgba(0,212,255,1) 100%, rgba(1,199,247,1) 100%, rgba(14,0,255,1) 100%, rgba(255,255,255,1) 100%);
+  
     color: white; 
     display: flex; 
     flex-direction: column; 

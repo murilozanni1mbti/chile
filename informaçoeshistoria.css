@@ -1,0 +1,41 @@
+header{
+    font-size: 3rem;
+    
+   
+}
+body{
+    background-color: blanchedalmond;
+}
+header a{
+    color: black;
+     
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+body > div {
+    background-color: #5a5a5a;
+    max-width: 736px;
+    margin-inline: auto;
+    margin-block: 64px;
+    padding: 40px;
+    border-radius: 24px;
+}
+h1{
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+h2{
+    color: beige;
+}
+h3{
+    color: beige;
+}
+p{
+    padding: 5px;
+}
+

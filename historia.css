@@ -25,8 +25,8 @@ body {
     color: black;
 }
 header li:hover{
-    transform: scale(2.2);
-    transition: 4s;
+    transform: scale(1.5);
+    transition: 6s;
     
 }
 header {
@@ -44,12 +44,19 @@ header ul {
 }
 
 header a {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     color: black;
     text-decoration: none;
 }
-
-
+main a {
+    font-size: 5rem;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    margin-top: 2rem;
+}
 
 
 main {
@@ -85,3 +92,4 @@ main {
     border-radius: 0.5rem;
     line-height: 1.5;
 }
+
